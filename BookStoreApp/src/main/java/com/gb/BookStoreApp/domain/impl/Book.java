@@ -1,4 +1,6 @@
-package com.gb.BookStoreApp.domain;
+package com.gb.BookStoreApp.domain.impl;
+
+import com.gb.BookStoreApp.domain.IBook;
 
 public class Book implements IBook {
     public int bookId;
@@ -78,5 +80,15 @@ public class Book implements IBook {
         public Book build() {
             return book;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "bookId=" + bookId +
+                ", name='" + name + '\'' +
+                ", author='" + author + '\'' +
+                ", numberOfPages=" + numberOfPages +
+                '}';
     }
 }

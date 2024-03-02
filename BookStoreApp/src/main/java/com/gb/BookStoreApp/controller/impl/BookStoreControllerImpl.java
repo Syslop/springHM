@@ -1,7 +1,6 @@
 package com.gb.BookStoreApp.controller.impl;
 
 import com.gb.BookStoreApp.controller.BookStoreController;
-import com.gb.BookStoreApp.domain.Book;
 import com.gb.BookStoreApp.service.OrderServiceFacade;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
